@@ -48,7 +48,12 @@
 }
 
 /* button */
+.buttonDiv {
+    padding: 25px;
+    padding-left: 0px;
+}
 .button {
+    text-decoration: none;
     padding: 15px 25px 15px 25px;
     margin: 30px 15px 15px 0px;
     font-weight: bolder;
