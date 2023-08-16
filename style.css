@@ -1,0 +1,89 @@
+/* align-content => vertically */
+/* justify-content => horizontally */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.grid-item1 {
+    padding: 10px 20px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+/* logo */
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* heading */
+#heading {
+    margin: 20px;
+    font-size: 75px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/* para */
+#para {
+    margin-right: 100px;
+}
+
+/* button */
+.button {
+    padding: 15px 25px 15px 25px;
+    margin: 30px 15px 15px 0px;
+    font-weight: bolder;
+    font-size: medium;
+    color: white;
+    background-color: rgb(18, 170, 18);
+    border-radius: 100px;
+    border-style: none;
+    max-width: fit-content;
+}
+.button:hover {
+    background-color: rgb(193, 241, 208);
+    color: green;
+}
+
+/* Social Media Links */
+.social-icons {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.socialLink {
+    list-style-type: none;
+    display: inline;
+    margin: 4px;
+}
+.socialLink:hover {
+    opacity: 50%;
+}
+
+/* plant image */
+#plantImage {
+    margin: auto;
+    width: auto;
+    height: 550px;
+    border-radius: 30px;
+}
